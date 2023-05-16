@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<!-- 
+Joshua Cox
+OLA3 - Cash Register: Javascript
+Due: 2/24/2023
+-->
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>OLA3</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="cash.js"></script>
+</head>
+
+<body>
+  <!-- Jump to here -->
+  <p id="Head"></p>
+
+  <!-- Top Navigation Bar -->
+  <ul id="ulbar">
+    <li id="libar"><a class="abar" href="ola1.html">Home</a></li>
+    <li id="libar"><a class="abar" href="ola2.html">CV</a></li>
+    <li id="libar"><a class="abar" href="ola3.html">Cash Register</a></li>
+    <li id="libar"><a class="abar" href="ola4.html">Meme Generator</a></li>
+    <li id="libar"><a class="abar" href="calc.php">Calculator</a></li>
+  </ul>
+
+  <h1>Cash Register</h1>
+
+  <button type="button" onclick="scan()">Enter Items</button>
+  <br><br>
+  <button type="button" onclick="display()">Display</button>
+  <br><br>
+  <button type="button" onclick="reset()">Reset Total</button>
+
+  <!-- Display for the total -->
+  <p class="Display">Total</p>
+  <p id="Display" class="Display">$0</p>
+
+</body>
+
+</html>

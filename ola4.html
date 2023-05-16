@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>OLA4 - Meme Generator</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="meme.js"></script>
+</head>
+
+<body>
+  <p></p>
+  <!-- Top Navigation Bar -->
+  <ul id="ulbar">
+    <li id="libar"><a class="abar" href="ola1.html">Home</a></li>
+    <li id="libar"><a class="abar" href="ola2.html">CV</a></li>
+    <li id="libar"><a class="abar" href="ola3.html">Cash Register</a></li>
+    <li id="libar"><a class="abar" href="ola4.html">Meme Generator</a></li>
+    <li id="libar"><a class="abar" href="calc.php">Calculator</a></li>
+  </ul>
+
+  <h1>Meme Generator</h1>
+  <h3>Use arrow keys to move image around screen</h3>
+
+  <div id="wrapper">
+    <!-- Div for the text on the meme -->
+    <div id="memeTxt">
+      <h1 class="meme" id="top-caption"></h1>
+      <h1 class="meme" id="bottom-caption"></h1>
+    </div>
+
+    <!-- Div for the input boxes -->
+    <div id="memeInput">
+      <form>
+        <label for="top-text">Top Text:</label>
+        <input type="text" id="top-text" name="toptext"><br>
+        <label for="bottom-text">Bottom Text:</label>
+        <input type="text" id="bottom-text" name="bottomtext"><br>
+        <label for="text-color">Text Color:</label>
+        <input type="text" id="text-color" name="textcolor"><br>
+        <label for="image-url">Image URL:</label>
+        <input type="text" id="image-url" name="image">
+      </form><br>
+      <button id="submit">Enter</button>
+    </div>
+
+    <!-- Div for the image of the meme -->
+    <div id="memeImg">
+      <img id="img1" alt="MEME GOES HERE">
+    </div>
+  </div>
+
+
+
+  <br><br><br><br>
+</body>
+
+</html>
