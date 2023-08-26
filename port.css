@@ -62,7 +62,7 @@ nav li a {
     padding: 16px;
     text-decoration: none;
     transition: background-color .3s ease;
-    border-radius: 75% 75% 75% 75%;
+    border-radius: 10px;
 }
 
 nav li a:hover {
@@ -139,13 +139,22 @@ footer {
     padding: 20px;
   }
   .show-more {
+    display: block; /* Makes the button take the full width of its container */
+    margin: 0 auto; /* Centers the button horizontally */
     background: none;
     border: none;
     color: var(--secondary-color);
     cursor: pointer;
     font-size: 1em;
-    text-align: left;
+    padding: 10px; /* Adds some padding around the button */
+    text-align: center; /* Centers the text inside the button */
   }
   .show-more:focus {
     outline: none;
   }
+
+  .video-frame {
+    width: 750px; /* or a fixed width like 800px */
+    height: 422px; /* adjust as needed */
+  }
+  
