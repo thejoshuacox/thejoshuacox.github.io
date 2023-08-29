@@ -137,8 +137,8 @@ footer {
 /* Style for show more drop-down content */
 .more-content {
     padding: 20px;
-  }
-  .show-more {
+}
+.show-more {
     display: block; /* Makes the button take the full width of its container */
     margin: 0 auto; /* Centers the button horizontally */
     background: none;
@@ -148,13 +148,33 @@ footer {
     font-size: 1em;
     padding: 10px; /* Adds some padding around the button */
     text-align: center; /* Centers the text inside the button */
-  }
-  .show-more:focus {
+}
+.show-more:focus {
     outline: none;
-  }
+}
 
-  .video-frame {
+.video-frame {
     width: 750px; /* or a fixed width like 800px */
     height: 422px; /* adjust as needed */
+}
+  
+/* Style to allow headshot to be to the right of the about section */
+#about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
   }
+  #about-content {
+    flex: .9; /* Allow the content to take most of the width */
+  }
+  #headshot {
+    max-width: 35%; /* Adjust the width as needed */
+  }
+  #headshot img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2);
+  }
+  
   
