@@ -62,12 +62,10 @@ nav li a {
     padding: 16px;
     text-decoration: none;
     transition: background-color .3s ease;
-    border-radius: 10px;
 }
 
 nav li a:hover {
-    background-color: var(--highlight-color);
-    color: var(--text-color);
+    color: #E6E4DB;
 }
 
 main {
