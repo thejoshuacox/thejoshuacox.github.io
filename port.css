@@ -29,6 +29,7 @@ body {
 #compBody {   
     background-image: url('compBackground3.png');
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 header {
