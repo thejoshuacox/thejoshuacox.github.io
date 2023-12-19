@@ -27,14 +27,17 @@ body {
 }
 
 #compBody {   
+    background: center;
+    background-color: var(--background-color);
     background-image: url('compBackground3.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
 #animBody {   
+    background: center;
+    background-color: var(--background-color);
     background-image: url('animBackground2.png');
-    background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
