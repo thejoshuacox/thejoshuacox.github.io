@@ -32,6 +32,12 @@ body {
     background-attachment: fixed;
 }
 
+#animBody {   
+    background-image: url('animBackground2.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
 header {
     background: linear-gradient(45deg, var(--primary-color), var(--secondary-color));
     color: #ffffff;
