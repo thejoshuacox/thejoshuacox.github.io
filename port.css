@@ -37,8 +37,7 @@ body {
 #compBody {   
     background: center;
     background-color: var(--background-color);
-    background-image: url('compBackground3.png');
-    background-repeat: no-repeat;
+    background-image: url('compBackground4.png');
     background-attachment: fixed;
 }
 
