@@ -26,6 +26,14 @@ body {
     flex: 1; /* This makes the content div take up any remaining space in the body, pushing the footer down */
 }
 
+#mainBody {   
+    background: center;
+    background-color: var(--background-color);
+    background-image: url('compBackground3.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
 #compBody {   
     background: center;
     background-color: var(--background-color);
