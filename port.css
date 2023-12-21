@@ -37,8 +37,9 @@ body {
 #compBody {   
     background: center;
     background-color: var(--background-color);
-    background-image: url('compBackground4.png');
+    background-image: url('compBackground5.png');
     background-attachment: fixed;
+    background-size: 1400px;
 }
 
 #animBody {   
